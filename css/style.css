@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+	font-family: "Roboto", Arial;
+	font-size: 18px;
+	line-height: 1.4;
+
+	background: #ffffff;
+	color: #000000;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin: 0 0 30px 0;
+
+}
+
+p {
+	margin: 30px 0;
+}
+
+section.content {
+	width: 550px;
+	margin: 60px auto;
+}
+
+header, section {
+	background-position: center center;
+	background-size: cover;
+	/*makes the paralax effet!*/
+	background-attachment: fixed;
+
+	position: relative;
+}
+
+html, body {
+	height: 100%;
+}
+
+.full {
+	height: 100%;
+}
+
+header {
+	background-image: url(../images/forest.jpg);
+}
+
+section#cyclists {
+	background-image: url(../images/cyclists.jpg);
+}
+
+section#mountain {
+	background-image: url(../images/mountain.jpg);
+}
+
+section#openroad {
+	background-image: url(../images/openroad.jpg);
+}
+
+section#single-cyclist {
+	background-image: url(../images/cyclist.jpg);
+}
+
+section#hill {
+	background-image: url(../images/hill.jpg);
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 250px;
+	margin: -125px 0 0 -125px;
+}
+
+#mc_embed_signup {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 400px;
+	height: 130px;
+	margin: -65px 0 0 -200px;
+
+	background-color: #000000;
+	padding:20px;
+}
+
+input[ type=email] {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #ffffff;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0;
+	margin: 0 0 20px 0;
+	outline: none;
+	transition: border 1s;
+}
+
+input[ type=email]:focus {
+	border-bottom-color: #f27490;
+}
+
+input[ type=submit] {
+	background: #000000;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/*compatable for iphones*/
+
+@media screen and (max-width:560px) {
+	section.content {
+		width:100%;
+		padding: 0 10px;
+	}
+	}
+}
